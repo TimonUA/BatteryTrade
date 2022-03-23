@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#">Головна</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">Про нас</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/aboutUS.html">Про нас</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Гарантії</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Відгуки</a></li>
@@ -80,12 +80,24 @@
             </div>
         </section> -->
         <!-- Portfolio Grid-->
-        <section style="margin-top: 100px;" class="page-section bg-light" id="portfolio">
+        <section class="page-section" id="aboutUS">
             <div class="container">
-                <div style="margin: 100px 0px;" class="text-center">
-                    <h2 class="section-heading text-uppercase">На сайті Battery Trade для <span style="color: #29ae89;">Nissan Leaf</span> Ви можете з легкістю:</h2>
+                <div class="row">
+                    <div class="col-lg ">
+                        <img class="img-fluid" src="assets/img/battery.jpg" alt="..." />
+                    </div>
+                    <div class="col-lg-8 col-sm-6 align-self-center">
+                        <h4>Після тривалої експлуатації електромобіля, його батарея потребує заміни. Аби збільшити запас ходу, не обов’язково купувати нову батарею. Можна замінити батарею на іншу б/в з більшим SOHом або більшою ємністю. Наша компанія допоможе Вам з легкістю вирішити дану проблему «під ключ» для електромобілів Nissan Leaf 2011-2017.</h4>
+                    </div>
+                </div>
+                <div style="margin: 100px 0px;" class="row text-center">
+                    <h2 class=" text-uppercase">На сайті Battery Trade для <span style="color: #29ae89;">Nissan Leaf</span> Ви можете з легкістю:</h2>
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
+            </div>
+        </section>
+        <section style="background-color: black;" class="page-section" id="portfolio">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
@@ -321,51 +333,36 @@
             </div>
         </div>
         <!-- Contact-->
-        <section class="page-section" id="contact">
+       <!-- <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <!-- Name input-->
                                 <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <div class="form-group">
-                                <!-- Email address input-->
                                 <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
                                 <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
                                 <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
                             <div class="fw-bolder">Form submission successful!</div>
@@ -374,16 +371,12 @@
                             <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                         </div>
                     </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
+                    Submit Button
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
                 </form>
             </div>
-        </section>
+        </section> -->
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
